@@ -6,12 +6,12 @@ def unwrap(imgIn, Cb):
     img = imgIn
 
     #MAPPING
-    def buildMap(Wd, Hd, R2, Cx, Cy):
+    def buildMap(Wd, Hd, R, Cx, Cy):
         map_x = np.zeros((Hd, Wd), np.float32)
         map_y = np.zeros((Hd, Wd), np.float32)
         for y in range(0, int(Hd - 1)):
             for x in range(0, int(Wd - 1)):
-                r = (float(y) / float(Hd)) * R2
+                r = (float(y) / float(Hd)) * R
                 theta = (float(x) / float(Wd)) * 2.0 * np.pi
                 xS = Cx + r * np.sin(theta)
                 yS = Cy + r * np.cos(theta)
