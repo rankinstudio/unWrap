@@ -16,7 +16,7 @@ sudo apt-get install python3-scipy<br>
 sudo apt-get install python-opencv<br>
 sudo pip3 install imageio<br>
 
-# usage
+# usage test.py
 	from unWrap import unwrap
  	import imageio
 
