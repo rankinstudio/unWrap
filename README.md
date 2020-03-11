@@ -1,6 +1,8 @@
 # unWrap
 Unwrap allsky (fisheye) images into rectilinear in Python
 
+![](test.jpg)
+
 Simple to use python script to unwrap an allsky or 360 deg RGB fisheye image into a panoramic rectilinear image.
 
 Dependencies:<br>
