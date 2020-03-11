@@ -30,8 +30,7 @@ def unwrap(imgIn, Cb):
     Cy = img.shape[1]/2
 
     #RADIUS OUTER
-    Rx = Cb
-    R = Rx - Cx
+    R = Cb - Cx
 
     #DESTINATION IMAGE SIZE
     Wd = int(abs(2.0 * (R / 2) * np.pi))
