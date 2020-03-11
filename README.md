@@ -1,2 +1,2 @@
 # unWrap
-Unwrap Allsky (Fisheye) images into rectilinear in Python
+Unwrap allsky (fisheye) images into rectilinear in Python
