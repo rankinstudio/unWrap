@@ -64,4 +64,4 @@ def process_img(image, rotateN):
             imageio.imwrite('unwrap.jpg', result)
 
 #THIS SHOULD BE YOUR ALLSKY IMAGE, True or False to ROTATE FINAL PANO N
-process_img('rgb.jpg', True)
+process_img('image.jpg', True)
