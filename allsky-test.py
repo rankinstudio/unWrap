@@ -7,7 +7,7 @@ from shutil import copyfile
 
 '''
 A test script using the  thomasjacquin / allsky project
-Put unWrap.py and test.py in the allsky directory
+Put unWrap.py and allsky-test.py in the allsky directory
 Call process_img with two args. Your allsky image, and a rotateN boolean
 
 Add to a cron job like so:
