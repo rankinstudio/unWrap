@@ -13,7 +13,7 @@ Call process_img with two args. Your allsky image, and a rotateN boolean
 Add to a cron job like so:
 
 sudo crontab -e
-*/1 * * * * cd /home/pi/allsky && sudo python3 test.py
+*/1 * * * * cd /home/pi/allsky && sudo python3 allsky-test.py
 '''
 
 def check_size(image):
