@@ -11,7 +11,7 @@ numpy<br>
 opencv<br>
 
 Tested:
-Raspberry pi 3/4
+Raspberry Pi 3/4
 
 # installation
 sudo apt-get install python3-scipy<br>
