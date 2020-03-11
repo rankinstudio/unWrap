@@ -42,7 +42,6 @@ def process_img(image, rotateN):
         result = unwrap(image, 0)
 
         if rotateN:
-            
             #GET WIDTH, DIVIDE BY 2, MINUS 1
             w = result.shape[1]
             wh = int(w / 2)
