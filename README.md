@@ -13,11 +13,6 @@ opencv<br>
 Tested:
 Raspberry Pi 3/4
 
-# installation
-sudo apt-get install python3-scipy<br>
-sudo apt-get install python-opencv<br>
-sudo pip3 install imageio<br>
-
 # usage
 	from unWrap import unwrap
  	import imageio
