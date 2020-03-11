@@ -21,7 +21,7 @@ result2 = result[:, wh:w1]
 #STITCH BACK TOGETHER ON X AXIS
 result = np.concatenate([result2, result1], 1)  # combine on x axis
 #FLIP IMAGE
-result = np.flip(result, 1)  # flip on x axiz
+result = np.flip(result, 1)  # flip on x axis
 #CONVERT UINT8
 result = np.uint8(result)  # Convt to uint8
 #SAVE
