@@ -17,10 +17,10 @@ Tested:
 Raspberry pi 3/4
 
 # usage
-  from unWrap import unwrap
-  import imageio
+	from unWrap import unwrap
+ 	import imageio
 
-  image = imageio.imread('rgb.jpg')
-  result = unwrap(image, 40)
-  imageio.imwrite('test.jpg', result)
+ 	image = imageio.imread('rgb.jpg')
+ 	result = unwrap(image, 40)
+ 	imageio.imwrite('test.jpg', result)
 
