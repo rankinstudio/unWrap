@@ -41,12 +41,12 @@ def process_img(image, rotateN):
         #UNWRAP IMAGE, 0 CROP AROUND EDGES
         result = unwrap(image, 0)
 
-        #GET WIDTH, DIVIDE BY 2, MINUS 1
-        w = result.shape[1]
-        wh = int(w / 2)
-        w1 = w - 1
-
         if rotateN:
+            
+            #GET WIDTH, DIVIDE BY 2, MINUS 1
+            w = result.shape[1]
+            wh = int(w / 2)
+            w1 = w - 1
             #CUT FIRST HALF
             result1 = result[:, 0:wh]
             #CUT SECOND HALF
