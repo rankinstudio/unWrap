@@ -1,7 +1,8 @@
+### This is the unWrap module with GPU proesssing for a PC. It has not been tested on the raspberry pi. It is insanely faster on a PC
+
 import cv2
 import numpy as np
 from numba import jit
-from timeit import default_timer as timer
 
 def unwrap(img, Cb):
 
